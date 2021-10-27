@@ -41,7 +41,7 @@ nav ul li a{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
@@ -67,12 +67,10 @@ nav ul li a{
 
 @keyframes logo {
     from {
-        margin-left: 100%;
         width: 50px;
         opacity: 0;
     }
     to {
-        margin-left: 0%;
         width: 425px;
         opacity: 1;
     }
@@ -138,7 +136,7 @@ nav ul li a{
     }
     .pricing{
         align-items: flex-end;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
     }
 
     #gallery{
